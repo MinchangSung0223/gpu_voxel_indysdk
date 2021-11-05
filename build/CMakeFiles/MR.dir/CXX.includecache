@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/root/workspace/gpu_voxel_indy_sdk3/include/modern_robotics.h
+Eigen/Dense
+-
+vector
+-
+
+/root/workspace/gpu_voxel_indy_sdk3/src/modern_robotics.cpp
+../include/modern_robotics.h
+/root/workspace/gpu_voxel_indy_sdk3/include/modern_robotics.h
+Eigen/Dense
+-
+cmath
+-
+vector
+-
+
